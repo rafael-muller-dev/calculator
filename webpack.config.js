@@ -6,7 +6,7 @@ const config = {
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'main.bundle[hash].js',
+    filename: 'calc.bundle.js',
   },
   plugins: [
     new HtmlWebpackPlugin({ template: path.resolve(__dirname, 'index.html') }),
